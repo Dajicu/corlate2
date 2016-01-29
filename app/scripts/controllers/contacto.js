@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name corlate2App.controller:AboutCtrl
+ * @name corlate2App.controller:ContactoCtrl
  * @description
- * # AboutCtrl
+ * # ContactoCtrl
  * Controller of the corlate2App
  */
 angular.module('corlate2App')
-  .controller('AboutCtrl', function () {
+  .controller('ContactoCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
