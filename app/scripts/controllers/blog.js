@@ -11,6 +11,13 @@ angular.module('corlate2App')
   .controller('BlogCtrl', function ($scope) {
     
     $scope.buscar = function(busqueda){
-    	alert('has escrito ' + busqueda);
+    	/*alert('has escrito ' + $scope.busqueda);*/
+
+    	if ($scope.busqueda == undefined || $scope.busqueda == ''){
+    		alert('Escribe algo');
+    	}
+    	else{
+    		alert('has escrito ' + $scope.busqueda);
+    	}
     }
   });
