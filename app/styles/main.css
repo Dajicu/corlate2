@@ -178,8 +178,11 @@ body > section {
   display: inline-block;
 }
 
+
+
 .navbar>.container .navbar-brand{
   margin-left: 0;
+
 }
 
 .top-bar {
@@ -283,7 +286,7 @@ input.search-form:hover {
   padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
-  color: #fff;
+  color: #73ad21;
   line-height: 24px;
   display: inline-block;
 }
