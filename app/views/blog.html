@@ -60,7 +60,8 @@
                 <aside class="col-md-4">
                     <div class="widget search">
                         <form role="form">
-                                <input type="text" class="form-control search_box" autocomplete="off" placeholder="Search Here">
+                                <input type="text" class="form-control search_box" autocomplete="off" placeholder="Search Here" ng-model="busqueda">
+                                <button class="btn btn-success glyphicon glyphicon-search" ng-click="buscar()"></button>
                         </form>
                     </div><!--/.search-->
     				
@@ -154,3 +155,4 @@
             </div><!--/.row-->
         </div>
     </section><!--/#blog-->
+
